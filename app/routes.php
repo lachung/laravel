@@ -18,8 +18,3 @@ Route::post('/TestJS', 'HomeController@testJS');
 Route::post('/Temp/{id}', 'HomeController@getWebDIV');
 Route::post('/Module/{id}', 'HomeController@getModuleCode');
 Route::post('/Like/Promo/{type}', 'HomeController@getLike');
-
-Route::get('/hello', function() 
-{
-	return View::make('hello'); 
-});
